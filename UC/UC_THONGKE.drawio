@@ -1,61 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T09:12:12.266Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="odQE5Ldotq4jzFogND-d" version="22.0.8" type="device">
+<mxfile host="app.diagrams.net" modified="2023-11-28T14:39:05.667Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="UBWGHxGQOCfG3NCZoi-z" version="22.1.4" type="device">
   <diagram name="Page-1" id="XZdA3j_1zCS9MSE5Lcj0">
     <mxGraphModel dx="872" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FoEk-rn477sal1E8c0gS-1" value="ADMIN" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+        <mxCell id="FoEk-rn477sal1E8c0gS-1" value="Quản trị viên" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="190" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FoEk-rn477sal1E8c0gS-2" value="Thống kê" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FoEk-rn477sal1E8c0gS-2" value="Thống kê" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="285" y="185" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="FoEk-rn477sal1E8c0gS-3" value="Đăng nhập thành công" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="285" y="80" width="140" height="40" as="geometry" />
+        <mxCell id="FoEk-rn477sal1E8c0gS-4" value="Thống kê sản phẩm bán chạy" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="80" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FoEk-rn477sal1E8c0gS-4" value="Thống kê sản phẩm bán chạy" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="100" width="190" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="FoEk-rn477sal1E8c0gS-5" value="Thống kê tỉ lệ mua hàng" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="300" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="FoEk-rn477sal1E8c0gS-6" value="Thống kê doanh thu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="200" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="FoEk-rn477sal1E8c0gS-7" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FoEk-rn477sal1E8c0gS-4" target="FoEk-rn477sal1E8c0gS-2">
+        <mxCell id="FoEk-rn477sal1E8c0gS-7" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="FoEk-rn477sal1E8c0gS-4" target="FoEk-rn477sal1E8c0gS-2" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="530" y="180" as="sourcePoint" />
             <mxPoint x="500" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FoEk-rn477sal1E8c0gS-8" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FoEk-rn477sal1E8c0gS-6" target="FoEk-rn477sal1E8c0gS-2">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="500" y="170" as="sourcePoint" />
-            <mxPoint x="490" y="130" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FoEk-rn477sal1E8c0gS-9" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FoEk-rn477sal1E8c0gS-5" target="FoEk-rn477sal1E8c0gS-2">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="470" y="400" as="sourcePoint" />
-            <mxPoint x="500" y="140" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FoEk-rn477sal1E8c0gS-10" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FoEk-rn477sal1E8c0gS-2" target="FoEk-rn477sal1E8c0gS-3">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="340" y="260" as="sourcePoint" />
-            <mxPoint x="500" y="260" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FoEk-rn477sal1E8c0gS-11" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FoEk-rn477sal1E8c0gS-1" target="FoEk-rn477sal1E8c0gS-2">
+        <mxCell id="FoEk-rn477sal1E8c0gS-11" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FoEk-rn477sal1E8c0gS-1" target="FoEk-rn477sal1E8c0gS-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="270" as="sourcePoint" />
             <mxPoint x="280" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FoEk-rn477sal1E8c0gS-12" value="Thống kê tỉ lệ hoàn trả" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FoEk-rn477sal1E8c0gS-12" value="Thống kê doanh thu" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="285" y="320" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FoEk-rn477sal1E8c0gS-13" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FoEk-rn477sal1E8c0gS-12" target="FoEk-rn477sal1E8c0gS-2">
+        <mxCell id="FoEk-rn477sal1E8c0gS-13" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="FoEk-rn477sal1E8c0gS-12" target="FoEk-rn477sal1E8c0gS-2" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="500" y="330" as="sourcePoint" />
             <mxPoint x="414" y="255" as="targetPoint" />
